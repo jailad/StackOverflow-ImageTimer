@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADB8D6851658187D008853E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB8D6841658187D008853E0 /* UIKit.framework */; };
+		ADB8D6871658187D008853E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB8D6861658187D008853E0 /* Foundation.framework */; };
+		ADB8D6891658187D008853E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB8D6881658187D008853E0 /* CoreGraphics.framework */; };
+		ADB8D68F1658187D008853E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB8D68D1658187D008853E0 /* InfoPlist.strings */; };
+		ADB8D6911658187D008853E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB8D6901658187D008853E0 /* main.m */; };
+		ADB8D6951658187D008853E0 /* JDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB8D6941658187D008853E0 /* JDemoAppDelegate.m */; };
+		ADB8D6981658187D008853E0 /* JDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB8D6971658187D008853E0 /* JDemoViewController.m */; };
+		ADB8D69B1658187D008853E0 /* JDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB8D6991658187D008853E0 /* JDemoViewController.xib */; };
+		ADB8D6AC16581B66008853E0 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB8D6A816581B66008853E0 /* img1.png */; };
+		ADB8D6AD16581B66008853E0 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB8D6A916581B66008853E0 /* img2.png */; };
+		ADB8D6AE16581B66008853E0 /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB8D6AA16581B66008853E0 /* img3.png */; };
+		ADB8D6AF16581B66008853E0 /* img4.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB8D6AB16581B66008853E0 /* img4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADB8D6801658187D008853E0 /* ImageTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB8D6841658187D008853E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADB8D6861658187D008853E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADB8D6881658187D008853E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADB8D68C1658187D008853E0 /* ImageTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageTimer-Info.plist"; sourceTree = "<group>"; };
+		ADB8D68E1658187D008853E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADB8D6901658187D008853E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADB8D6921658187D008853E0 /* ImageTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageTimer-Prefix.pch"; sourceTree = "<group>"; };
+		ADB8D6931658187D008853E0 /* JDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDemoAppDelegate.h; sourceTree = "<group>"; };
+		ADB8D6941658187D008853E0 /* JDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDemoAppDelegate.m; sourceTree = "<group>"; };
+		ADB8D6961658187D008853E0 /* JDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDemoViewController.h; sourceTree = "<group>"; };
+		ADB8D6971658187D008853E0 /* JDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDemoViewController.m; sourceTree = "<group>"; };
+		ADB8D69A1658187D008853E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JDemoViewController.xib; sourceTree = "<group>"; };
+		ADB8D6A816581B66008853E0 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		ADB8D6A916581B66008853E0 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
+		ADB8D6AA16581B66008853E0 /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3.png; sourceTree = "<group>"; };
+		ADB8D6AB16581B66008853E0 /* img4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADB8D67D1658187D008853E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB8D6851658187D008853E0 /* UIKit.framework in Frameworks */,
+				ADB8D6871658187D008853E0 /* Foundation.framework in Frameworks */,
+				ADB8D6891658187D008853E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADB8D6751658187D008853E0 = {
+			isa = PBXGroup;
+			children = (
+				ADB8D68A1658187D008853E0 /* ImageTimer */,
+				ADB8D6831658187D008853E0 /* Frameworks */,
+				ADB8D6811658187D008853E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADB8D6811658187D008853E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADB8D6801658187D008853E0 /* ImageTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADB8D6831658187D008853E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB8D6841658187D008853E0 /* UIKit.framework */,
+				ADB8D6861658187D008853E0 /* Foundation.framework */,
+				ADB8D6881658187D008853E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB8D68A1658187D008853E0 /* ImageTimer */ = {
+			isa = PBXGroup;
+			children = (
+				ADB8D6931658187D008853E0 /* JDemoAppDelegate.h */,
+				ADB8D6941658187D008853E0 /* JDemoAppDelegate.m */,
+				ADB8D6961658187D008853E0 /* JDemoViewController.h */,
+				ADB8D6971658187D008853E0 /* JDemoViewController.m */,
+				ADB8D6991658187D008853E0 /* JDemoViewController.xib */,
+				ADB8D68B1658187D008853E0 /* Supporting Files */,
+			);
+			path = ImageTimer;
+			sourceTree = "<group>";
+		};
+		ADB8D68B1658187D008853E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB8D6A816581B66008853E0 /* img1.png */,
+				ADB8D6A916581B66008853E0 /* img2.png */,
+				ADB8D6AA16581B66008853E0 /* img3.png */,
+				ADB8D6AB16581B66008853E0 /* img4.png */,
+				ADB8D68C1658187D008853E0 /* ImageTimer-Info.plist */,
+				ADB8D68D1658187D008853E0 /* InfoPlist.strings */,
+				ADB8D6901658187D008853E0 /* main.m */,
+				ADB8D6921658187D008853E0 /* ImageTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADB8D67F1658187D008853E0 /* ImageTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB8D69E1658187D008853E0 /* Build configuration list for PBXNativeTarget "ImageTimer" */;
+			buildPhases = (
+				ADB8D67C1658187D008853E0 /* Sources */,
+				ADB8D67D1658187D008853E0 /* Frameworks */,
+				ADB8D67E1658187D008853E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageTimer;
+			productName = ImageTimer;
+			productReference = ADB8D6801658187D008853E0 /* ImageTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADB8D6771658187D008853E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JDemo;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = ADB8D67A1658187D008853E0 /* Build configuration list for PBXProject "ImageTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADB8D6751658187D008853E0;
+			productRefGroup = ADB8D6811658187D008853E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADB8D67F1658187D008853E0 /* ImageTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADB8D67E1658187D008853E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB8D68F1658187D008853E0 /* InfoPlist.strings in Resources */,
+				ADB8D69B1658187D008853E0 /* JDemoViewController.xib in Resources */,
+				ADB8D6AC16581B66008853E0 /* img1.png in Resources */,
+				ADB8D6AD16581B66008853E0 /* img2.png in Resources */,
+				ADB8D6AE16581B66008853E0 /* img3.png in Resources */,
+				ADB8D6AF16581B66008853E0 /* img4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADB8D67C1658187D008853E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB8D6911658187D008853E0 /* main.m in Sources */,
+				ADB8D6951658187D008853E0 /* JDemoAppDelegate.m in Sources */,
+				ADB8D6981658187D008853E0 /* JDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADB8D68D1658187D008853E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB8D68E1658187D008853E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADB8D6991658187D008853E0 /* JDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB8D69A1658187D008853E0 /* en */,
+			);
+			name = JDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADB8D69C1658187D008853E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADB8D69D1658187D008853E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADB8D69F1658187D008853E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageTimer/ImageTimer-Prefix.pch";
+				INFOPLIST_FILE = "ImageTimer/ImageTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADB8D6A01658187D008853E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageTimer/ImageTimer-Prefix.pch";
+				INFOPLIST_FILE = "ImageTimer/ImageTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADB8D67A1658187D008853E0 /* Build configuration list for PBXProject "ImageTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB8D69C1658187D008853E0 /* Debug */,
+				ADB8D69D1658187D008853E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB8D69E1658187D008853E0 /* Build configuration list for PBXNativeTarget "ImageTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB8D69F1658187D008853E0 /* Debug */,
+				ADB8D6A01658187D008853E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADB8D6771658187D008853E0 /* Project object */;
+}
